@@ -1,0 +1,22 @@
+[include]
+path = ./.gitconfig.local
+
+[core]
+autocrlf = input
+
+[init]
+defaultBranch = main
+
+[pull]
+rebase = true
+
+[push]
+default = simple
+autosetupremote = true
+
+[fetch]
+prune = true
+
+[alias]
+co = checkout
+fix = commit --amend --no-edit
