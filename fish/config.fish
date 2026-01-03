@@ -13,3 +13,6 @@ if test -f ~/.local/share/omf/init.fish
     source $OMF_PATH/lib/require.fish
     source ~/.local/share/omf/init.fish
 end
+
+# initialize zoxide
+zoxide init fish | source
