@@ -21,11 +21,6 @@ return {
                     indent_marker = "│",
                     last_indent_marker = "└",
                 },
-                icon = {
-                    folder_closed = "📁",
-                    folder_open = "📂",
-                    folder_empty = "📄",
-                },
                 git_status = {
                     symbols = {
                         added = "✚",
