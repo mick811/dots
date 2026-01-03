@@ -39,3 +39,6 @@ pnpm-debug.log*
 
 # ignore the local git identity file
 git/.gitconfig.local
+
+# github copilot - ignore sensitive auth tokens
+github-copilot/apps.json
