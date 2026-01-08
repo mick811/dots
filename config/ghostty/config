@@ -13,3 +13,4 @@ shell-integration-features = no-cursor
 title = " "
 mouse-hide-while-typing = true
 keybind = shift+enter=text:\n
+keybind = @=text:@
