@@ -22,12 +22,11 @@ skip deep reasoning for:
 
 ## dependency handling
 
-- always use the package manager being used to add, remove or update dependencies. mostly bun
+- always use the package manager being used to add, remove or update dependencies. i use bun
 - never edit the package.json or any similar file manually
 
 ## commiting patterns
 
 - never commit if not asked to
-- always use lowercase text. this does not mean not using kebab-case when applicable
-- commit messages should be short and to the point
-- default to using the git cli. use graphite when asked to explicitly
+- always use lowercase text including comments. this does not mean not using kebab-case when applicable
+- commit messages should be short and to the point, generally following conventional commits
